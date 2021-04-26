@@ -39,5 +39,7 @@
     <url-pattern>/serv2</url-pattern>
   </filter-mapping>
 
-
+  <listener>
+    <listener-class>by.pvt.listener.SessionCounter</listener-class>
+  </listener>
 </web-app>

@@ -9,7 +9,6 @@ import java.io.IOException;
 public class LoggingFilter implements Filter {
 
     static final private Logger LOGGER = Logger.getLogger(LoggingFilter.class);
-
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         LOGGER.info("URI called:" + ((HttpServletRequest) servletRequest).getRequestURI());

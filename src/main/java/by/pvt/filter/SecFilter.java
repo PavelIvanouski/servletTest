@@ -19,13 +19,9 @@ public class SecFilter implements Filter {
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain)
             throws IOException, ServletException {
 
-
-
-//        HttpServletRequest req = (HttpServletRequest) servletRequest;
+        HttpServletRequest req = (HttpServletRequest) servletRequest;
         LOGGER.info("SEC filter invoked");
-        String authentication = ((HttpServletRequest) servletRequest).getHeader("Authentication");
-//        String authentication = req.getHeader("Authentication");
-        System.out.println(authentication);
+        String authentication = req.getHeader("Authentication");
         if (checkInDb(authentication)){
             filterChain.doFilter(servletRequest,servletResponse);
         } else {
