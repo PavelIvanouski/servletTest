@@ -1,5 +1,7 @@
 <html>
+<jsp:include page="meta.jsp" />
 <body>
+<jsp:include page="header.jsp" />
 <h2>Hello World!</h2>
 
     <%
@@ -10,5 +12,6 @@
     %>
 
     <a href="http://localhost:8080/webappsample/users/list">Users list</a>
+<jsp:include page="footer.jsp" />
 </body>
 </html>

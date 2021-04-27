@@ -31,6 +31,12 @@ public class UserService {
         return users;
     }
 
+    public void deleteUser(Integer id) {
+        users.stream().filter(u -> u.getId().equals(id))
+                .findFirst()
+                .ifPresent(u -> users.remove(u));
+    }
+
     private User user(Integer id, String fName, String lName) {
         User user = new User();
         user.setId(id);
@@ -38,6 +44,5 @@ public class UserService {
         user.setLastName(lName);
         return user;
     }
-
 
 }
