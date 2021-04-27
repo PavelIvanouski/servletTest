@@ -1,0 +1,12 @@
+
+F
+java:S1481")Remove this unused "ints" local variable.(”ş‘Ê8û¾Òó/
+U
+java:S1128"8Remove this unused import 'by.pvt.filter.LoggingFilter'.(ÄÀÂŞ8åÄàò/
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(øáÚ™ÿÿÿÿÿ8“àò/
+E	java:S108")Either remove or fill this block of code.(”ş‘Ê8û¾Òó/
+^
+java:S1128"ARemove this unused import 'javax.servlet.annotation.WebListener'.(úÖ­ï8·¡ôò/
+H
+java:S1128	"+Remove this unused import 'java.sql.Array'.(Õø‹ù8ØÄó/

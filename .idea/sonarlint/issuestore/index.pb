@@ -11,3 +11,7 @@ O
 src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
 Z
 *src/main/java/by/pvt/filter/SecFilter.java,9\4\94dd183936384995fc3ef5872de508b01370ff1c
+a
+1src/main/java/by/pvt/listener/SessionCounter.java,b\1\b1cbf5fc99827e04bed0aff5cc7f75a3a349cecd
+I
+src/main/webapp/index.jsp,8\e\8e6d3b70c9f5b02570779b0441540d45eceb0ded
