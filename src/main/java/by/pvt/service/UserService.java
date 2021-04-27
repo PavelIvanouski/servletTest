@@ -15,8 +15,8 @@ public class UserService {
     private UserService() {
         users.add(user(1, "Pavel", "Ivanouski"));
         users.add(user(2, "Alex", "Smith"));
-        users.add(user(1, "Max", "Petrov"));
-        users.add(user(1, "Pavel", "Ivanov"));
+        users.add(user(3, "Max", "Petrov"));
+        users.add(user(4, "Pavel", "Ivanov"));
 
     }
 

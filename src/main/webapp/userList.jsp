@@ -24,9 +24,9 @@
             for (User user:users) {
         %>
         <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
+            <th scope="row"><%= user.getId()%></th>
+            <td><%= user.getFirstName()%></td>
+            <td><%= user.getLastName()%></td>
         </tr>
         <%
             }
