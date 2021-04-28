@@ -31,6 +31,16 @@ public class UserService {
         return users;
     }
 
+    public void addUser(String fName, String lName) {
+
+        Integer id = users.stream().sorted((u1, u2) -> -u1.getId() + u2.getId()).findFirst().get().getId();
+        User user = new User();
+        user.setFirstName(fName);
+        user.setLastName(lName);
+        user.setId(id + 1);
+        users.add(user);
+    }
+
     public void deleteUser(Integer id) {
         users.stream().filter(u -> u.getId().equals(id))
                 .findFirst()
