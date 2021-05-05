@@ -23,3 +23,9 @@ L
 src/main/webapp/userList.jsp,3\5\3540e156123c7a9c77df30d634bd9877f78920cb
 ]
 -src/main/java/by/pvt/service/UserService.java,d\5\d56a07acbf7d66e8fe8527d8cbc136dff2347fa1
+c
+3src/main/java/by/pvt/servlet/UserDeleteServlet.java,4\9\495516fdb092f4a286fd4f3fab876a49a8ecceee
+`
+0src/main/java/by/pvt/servlet/NewUserServlet.java,b\2\b2148582fea0bd2d1da550ac352bab66fb176c56
+K
+src/main/webapp/newUser.jsp,e\b\ebcc5cd3926b329b4ce0715e5ef041d813b7c77b

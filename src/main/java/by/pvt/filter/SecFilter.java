@@ -30,7 +30,8 @@ public class SecFilter implements Filter {
     }
 
     private boolean checkInDb(String authentication) {
-        return authentication.equals("12345");
+        return "12345".equals(authentication);
+        //return authentication.equals("12345");
     }
 
     @Override
