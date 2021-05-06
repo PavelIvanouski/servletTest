@@ -26,6 +26,8 @@ public class UserDeleteServlet extends HttpServlet {
 
         List<User> userList = UserService.getInstance().getUserList();
 
+        req.setAttribute("deleted",true);
+
         req.setAttribute("userList", userList);
 
         req.getRequestDispatcher("/userList.jsp").forward(req, resp);
